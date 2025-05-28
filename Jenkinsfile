@@ -6,7 +6,7 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch: 'master', url: 'https://github.com/nreddyg07/MAWA.git
+				git branch: 'master', url: 'https://github.com/nreddyg07/MAWA.git'
 			}
 		}
 		stage('Build'){
